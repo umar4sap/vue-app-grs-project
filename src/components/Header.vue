@@ -1,25 +1,23 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark mb-3">
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-3">
+  <div class="container" >
   <a class="navbar-brand" href="#">{{siteTile}}</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-    <router-link to="/" class="nav-link" href="#">Home <span class="sr-only">(current)</span></router-link>
+    <router-link to="/" class="nav-link" href="#">Home </router-link>
       </li>
       <li class="nav-item">
-     <router-link to="/task" class="nav-link" href="#">Task Activities</router-link>
+     <router-link to="/dashboard" class="nav-link" href="#">Dashboard</router-link>
       </li>
     
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+     <li class="nav-item">
+     <router-link to="/task" class="nav-link" href="#">Menu</router-link>
       </li>
+    
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-     
-    </form>
+  
   </div>
   </div>
 </nav>
@@ -39,11 +37,32 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.navbar{
-  background: blueviolet;
-}
+ .navbar{
+  background: #fff;
+} 
 .search{
    background: green;
    color : white;
 }
+
+.navbar .nav-item >.nav-link{
+  color:#616161;
+      padding:12px 16px;
+  letter-spacing:0.02em ;
+  font-size:16px ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+}
+
+
+a.navbar-brand {
+  color:#616161;
+      font-size: 25px;
+      font-weight: 600;
+}
+a.navbar-brand:hover{
+  color: black;
+}
+
 </style>

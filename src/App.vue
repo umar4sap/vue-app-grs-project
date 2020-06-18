@@ -1,17 +1,23 @@
 <template>
   <div id="app">
   <Header />
-  <div class="container">
+  <div class="container-fluid">
     <router-view/>
   </div>
+  <Customers />
+  <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue"; 
+import Customers from "@/components/Customers.vue";
 export default {
  components:{
-   Header
+   Header,
+   Footer,
+   Customers
  }
   
 }
@@ -24,5 +30,7 @@ export default {
 
 
 <style>
-
+.container-fluid{
+padding:0px;
+}
 </style>
