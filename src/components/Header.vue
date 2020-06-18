@@ -3,7 +3,7 @@
   <div class="container" >
   <a class="navbar-brand" href="#">{{siteTile}}</a>
 
-  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+  <div class="navbar-collapse collapse"  id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
     <router-link to="/" class="nav-link" href="#">Home </router-link>
@@ -38,7 +38,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
  .navbar{
-  background: #fff;
+  background:#ff1567 !important;
 } 
 .search{
    background: green;
@@ -47,7 +47,7 @@ export default {
 
 .navbar .nav-item >.nav-link{
   color:#616161;
-      padding:12px 16px;
+  padding:12px 16px;
   letter-spacing:0.02em ;
   font-size:16px ;
   font-family: 'Open Sans', sans-serif;
@@ -56,13 +56,31 @@ export default {
 }
 
 
+
 a.navbar-brand {
-  color:#616161;
-      font-size: 25px;
-      font-weight: 600;
+      text-transform: uppercase;
+    font-size: 0.8571em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.625rem;
 }
 a.navbar-brand:hover{
   color: black;
+}
+
+
+.navbar-collapse:not(.has-image) {
+    background: transparent!important;
+    background-image: initial !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: transparent !important;
 }
 
 </style>

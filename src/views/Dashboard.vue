@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid">
+  <div class="container mr-2 ">
   
-      <span class="btn btn-sm  btn-success btn-app mr-2 mb-1">+ New Building</span>
+      <span class="btn btn-sm  btn-success btn-app mr-2 mb-1 right">+ New Building</span>
    
     <div class="row">
       <div class="col">
@@ -10,7 +10,7 @@
     </div>
     <div class="row equal">
       <!-- <div class="col-xs-12 col-sm-6 col-md-3 d-flex pb-3" v-for="board in unarchivedBoards" :key="board.id"> -->
-         <div class="col-xs-12 col-sm-6 col-md-3 d-flex pb-3" >
+         <div class="col-xs-12 col-sm-6 col-md-3 d-flex pb-3"  v-for="todo of todos" :key="todo.id">
         <div class="card w-100 board-item">
           <div class="card-body">
             <div class="d-flex justify-content-between">
@@ -57,9 +57,39 @@
 </template>
 <script>
 
+
+
+import axios from 'axios';
+
+const baseURL = "http://localhost:8080/grs/apis/v1"
+
 export default {
-   name: 'Dashboard',
-  computed: {
+  name: 'Dashboard',
+  data() {
+    return {
+      todos: [],
+      todoName: ''
+    }
+  },
+  
+  async created() {
+    this.header= {"Access-Control-Allow-Origin ":'*'};
+    try {
+      const res = await axios.get(baseURL+"/projects",this.header)
+
+      this.todos = res.data;
+    } catch(e) {
+      console.error(e)
+    }
+  },
+  methods: {
+    async addTodo() {
+      const res = await axios.post(baseURL, { name: this.todoName })
+
+      this.todos = [...this.todos, res.data]
+
+      this.todoName = ''
+    }
   }
 }
 </script>
