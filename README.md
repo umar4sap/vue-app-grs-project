@@ -1,5 +1,12 @@
 # Building-Maintaince-Tracker-app-by-Umar
 
+
+#Application architecture
+
+![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring-boot-vue-example-spring-data-jpa-rest-api-postgresql-architecture.png?raw=true)
+
+![New Task](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/new%20task%20model.png?raw=true)
+
 ## Project setup
 ```
 npm install
@@ -55,7 +62,21 @@ Help to see project status per building and per person it is assigned to.
 ![New Task](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/new%20task%20model.png?raw=true)
 
 
+#Can Improve:
+
+Front End
+1-UI/ UX experience
+2-Crud operation 
+3-Branding
+4-signin options
 
 
+Backend
+3-one to one and one to many mappings
+4-can add Api document tool swagger
+
+
+#Find me on linked in:
+https://www.linkedin.com/in/umar-mohammed-81b710b2/
 
 
