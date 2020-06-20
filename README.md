@@ -37,7 +37,7 @@ The projects are activities to remember and collaborate on; like fixing some def
 
 Help to see project status per building and per person it is assigned to.
 
-## Finished worked
+## Finished items 
 1-Home page
 
 ![Home page](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/Home.png?raw=true)
@@ -62,16 +62,17 @@ Help to see project status per building and per person it is assigned to.
 ![New Task](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/new%20task%20model.png?raw=true)
 
 
-## Can Improve:
 
-Front End
-1-UI/ UX experience
+## Roadmap to Improve:
+
+### Front End
+1-UI/ UX experience(color schemes)
 2-Crud operation 
 3-Branding
 4-signin options
 
 
-Backend
+### Backend
 3-one to one and one to many mappings
 4-can add Api document tool swagger
 
