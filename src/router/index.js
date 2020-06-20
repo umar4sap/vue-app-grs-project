@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import Home from '../views/Home.vue'
-import Dashboard from '../views/Dashboard.vue'
-// Install BootstrapVue
+
+
+
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
+
 Vue.use(IconsPlugin)
 
 Vue.use(VueRouter)
@@ -21,14 +22,22 @@ Vue.use(VueRouter)
   {
     path: '/dashboard',
     name: 'dashboard',
-    components: { Dashboard },
-   
-  
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-  
-  }
+    component: () => import(/* webpackChunkName: "about" */ '../components/Dashboard.vue')
+  },
+  {
+    path: '/task/:projectId',
+    name: 'task',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Taskview.vue')
+},
+{
+  path: '/employee/:employeeId',
+  name: 'employee',
+  component: () => import(/* webpackChunkName: "about" */ '../views/Employee.vue')
+}
+
 ]
 
 const router = new VueRouter({

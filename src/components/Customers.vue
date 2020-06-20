@@ -9,19 +9,19 @@
       <div class="oc-name">
         <div class="row d-flex justify-content-around">
           <div class="col-2">
-            <img src="@/assets/c-logo.svg" alt />
+            <img src="@/assets/c-logo.svg" class="cs-img" alt />
           </div>
           <div class="col-2">
-            <img src="@/assets/c-logo.svg" alt />
+            <img src="@/assets/c-logo2.svg" class="cs-img" alt />
           </div>
           <div class="col-2">
-            <img src="@/assets/c-logo.svg" alt />
+            <img src="@/assets/c-logo3.svg" class="cs-img" alt />
           </div>
           <div class="col-2">
-            <img src="@/assets/c-logo.svg" alt />
+            <img src="@/assets/c-logo4.svg" class="cs-img" alt />
           </div>
           <div class="col-2">
-            <img src="@/assets/c-logo.svg" alt />
+            <img src="@/assets/c-logo5.svg" class="cs-img" alt />
           </div>
         </div>
         <hr />
@@ -52,13 +52,13 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 }
 
 .oc-head > h5 {
-  color: #42526e;
+  color: #828283 ;
   letter-spacing: 1px;
   font-size: 17px;
 }
 
 .oc-name {
-  padding: 30px 0px;
+  padding: 50px;
 }
 
 .oc-name > hr {
@@ -67,6 +67,10 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
   height: 2px;
   margin: 65px;
   padding: 0;
+}
+
+img.cs-img{
+  width: 120px;
 }
 
 </style>
