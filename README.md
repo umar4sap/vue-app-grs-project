@@ -1,11 +1,11 @@
 # Building-Maintaince-Tracker-app-by-Umar
 
 
-## Application architecture
+### Application architecture
 
 ![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring-boot-vue-example-spring-data-jpa-rest-api-postgresql-architecture.png?raw=true)
 
-![New Task](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/new%20task%20model.png?raw=true)
+
 
 ## Project setup
 ```
