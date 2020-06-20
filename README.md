@@ -1,7 +1,7 @@
 # Building-Maintaince-Tracker-app-by-Umar
 
 
-#Application architecture
+## Application architecture
 
 ![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring-boot-vue-example-spring-data-jpa-rest-api-postgresql-architecture.png?raw=true)
 
@@ -37,7 +37,7 @@ The projects are activities to remember and collaborate on; like fixing some def
 
 Help to see project status per building and per person it is assigned to.
 
-#Finished worked
+## Finished worked
 1-Home page
 
 ![Home page](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/Home.png?raw=true)
@@ -62,7 +62,7 @@ Help to see project status per building and per person it is assigned to.
 ![New Task](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/new%20task%20model.png?raw=true)
 
 
-#Can Improve:
+## Can Improve:
 
 Front End
 1-UI/ UX experience
