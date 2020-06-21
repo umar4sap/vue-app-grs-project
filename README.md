@@ -11,7 +11,7 @@
 ### Backend jar
 https://drive.google.com/file/d/1aIVsfHQzSASkG5i658Ng6cLT4o9UTjy_/view?usp=sharing
 
-### Backend java sprint boot application repo
+### Backend java spring boot application repo
 https://github.com/umar4sap/GrsActivityTrackerDemo
 
 ## Project setup Front End
