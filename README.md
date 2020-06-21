@@ -6,7 +6,7 @@
 ![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/architecture.png?raw=true)
 
 ### Backend spring boot architecture
-![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring%20backend%20flow.png?raw=true)
+![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring%20backend%20flow2.png?raw=true)
 
 ### Backend jar
 https://drive.google.com/file/d/1aIVsfHQzSASkG5i658Ng6cLT4o9UTjy_/view?usp=sharing
