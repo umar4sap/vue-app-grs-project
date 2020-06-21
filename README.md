@@ -2,8 +2,11 @@
 
 
 ### Application architecture
+(to get genral idea on application flow)
+![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/architecture.png?raw=true)
 
-![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring-boot-vue-example-spring-data-jpa-rest-api-postgresql-architecture.png?raw=true)
+### Backend spring boot architecture
+![architecture](https://github.com/umar4sap/vue-app-grs-project/blob/master/src/assets/spring%20backend%20flow.png?raw=true)
 
 ### Backend jar
 https://drive.google.com/file/d/1aIVsfHQzSASkG5i658Ng6cLT4o9UTjy_/view?usp=sharing
